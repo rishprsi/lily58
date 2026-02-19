@@ -13,7 +13,7 @@
 &kscan0 { wakeup-source; };
 
 &mt {
-    tapping-term-ms = <300>;
+    tapping-term-ms = <250>;
     quick-tap-ms = <150>;
     require-prior-idle-ms = <150>;
     flavor = "tap-preferred";
